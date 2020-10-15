@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+    android:contentInsetLeft="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:titleMarginStart="16dp"
+    app:contentInsetStartWithNavigation="0dp"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center"
+        android:id="@+id/tabs_contener"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:textAllCaps="false"
+        android:visibility="visible"
+
+        >
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/msbt"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Main Session"
+                android:textSize="13sp"
+
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+            <RadioButton
+                android:id="@+id/bobt"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_width="50dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="breakout Session"
+                android:singleLine="true"
+                android:textSize="13sp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.Toolbar>
+
+    <!--androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/sp_common_header_toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"/-->
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/radioGroup"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RadioButton
+            android:id="@+id/btnRecording"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="match_parent"
+            android:text= "MainSession"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:layout_weight="1.1"
+            android:background="#02ffe2"
+
+            />
+        <RadioButton
+            android:id="@+id/btnPast"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BreakoutSession"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:background="#fad023"
+
+            />
+    </RadioGroup>
+
+</LinearLayout>
+
