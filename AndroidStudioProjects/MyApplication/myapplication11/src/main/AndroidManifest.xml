@@ -16,7 +16,7 @@
         <activity android:name=".NormalActivity"
         />
         <activity android:name=".MainActivity11"
-            android:label="Peppa">
+            android:label="Peppaha">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
