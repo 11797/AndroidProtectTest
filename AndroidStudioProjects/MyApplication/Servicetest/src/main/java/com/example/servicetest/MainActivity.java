@@ -11,11 +11,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         View start = findViewById(R.id.start);
         View stop = findViewById(R.id.stop);
         start.setOnClickListener(this);
         stop.setOnClickListener(this);
-        setContentView(R.layout.activity_main);
+
+
     }
 
     @Override
